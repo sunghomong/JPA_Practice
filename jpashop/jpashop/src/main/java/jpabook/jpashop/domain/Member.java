@@ -23,4 +23,7 @@ public class Member {
     @OneToMany(mappedBy = "member") // member의 입장에서는 1:N 나는 멤버에의해서 메핑된 키야.
     private List<Order> orders = new ArrayList<>();
 
+
+
+
 }
