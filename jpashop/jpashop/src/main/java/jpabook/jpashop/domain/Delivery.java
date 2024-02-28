@@ -20,4 +20,8 @@ public class Delivery {
 
     @Enumerated(EnumType.STRING) // ORDINAL은 숫자 형태 꼭 스트링으로 써야한다.
     private DeliveryStatus delivery; // READY, COMP
+
+    public DeliveryStatus getStatus() {
+        return this.delivery = delivery;
+    }
 }
